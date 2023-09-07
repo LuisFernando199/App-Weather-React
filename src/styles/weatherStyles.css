@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #03353550;
+  }
+  
+  .container {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 4rem;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size:large ;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: medium;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  img {
+    width: 6rem;
+    height: 6rem;
+    margin: .5rem;
+  }
+  
+  /* Estilos para móviles */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    input[type="text"] {
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
